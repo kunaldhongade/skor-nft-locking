@@ -1,15 +1,27 @@
 {
-            "compilerOptions": {
-              "types": ["mocha", "chai", "node"],
-              "typeRoots": ["./node_modules/@types"],
-              "lib": ["es2015"],
-              "skipLibCheck": true,
-              "strict": false,
-              "forceConsistentCasingInFileNames": true,
-              "resolveJsonModule": true,
-              "esModuleInterop": true,
-              "target": "ES2021",
-              "module": "CommonJS",
-              "moduleResolution": "node"
-            }
-          }
+  "compilerOptions": {
+    "types": ["mocha", "chai", "node"],
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["es2015", "dom", "es2020"],
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "incremental": true,
+    "tsBuildInfoFile": "dist/.tsbuildinfo"
+  },
+  "include": ["scripts/**/*", "migrations/**/*"],
+  "exclude": ["node_modules", "target", "dist"]
+}

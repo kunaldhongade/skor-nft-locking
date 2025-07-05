@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.mainnet]
-skorstaking = "3YdgNrgnMfgYNRi1MaTzNfBSwmJibnDD6Wnm4MewDfVt"
+skornftlocking = "3YdgNrgnMfgYNRi1MaTzNfBSwmJibnDD6Wnm4MewDfVt"
 
 [registry]
 url = "https://api.apr.dev"
@@ -34,4 +34,4 @@ rpc_port = 8899
 
 [build]
 
-programs = { skorstaking = "200000" }
+programs = { skornftlocking = "200000" }
