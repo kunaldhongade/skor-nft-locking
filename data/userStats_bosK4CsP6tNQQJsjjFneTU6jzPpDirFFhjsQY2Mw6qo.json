@@ -1,0 +1,17 @@
+{
+  "totalStaked": 23000,
+  "totalRewards": 0,
+  "activeStakes": 1,
+  "tierDistribution": {
+    "Bronze": 1,
+    "Silver": 0,
+    "Gold": 0
+  },
+  "durationDistribution": {
+    "Sixty": 0,
+    "Ninety": 1,
+    "OneEighty": 0,
+    "ThreeSixtyFive": 0
+  },
+  "bump": 0
+}

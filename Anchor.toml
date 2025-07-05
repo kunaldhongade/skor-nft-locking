@@ -1,0 +1,37 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.mainnet]
+skorstaking = "3YdgNrgnMfgYNRi1MaTzNfBSwmJibnDD6Wnm4MewDfVt"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "mainnet"
+# wallet = "~/.config/solana/id.json"
+# wallet = "~/.config/solana/new-wallet.json"
+wallet = "~/.config/solana/mainnet-wallet.json"
+
+
+
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+[test]
+startup_wait = 5000
+shutdown_wait = 2000
+upgradeable = true
+
+[test.validator]
+bind_address = "127.0.0.1"
+ledger = ".anchor/test-ledger"
+rpc_port = 8899
+
+[build]
+
+programs = { skorstaking = "200000" }
