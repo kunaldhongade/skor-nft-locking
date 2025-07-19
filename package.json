@@ -5,6 +5,8 @@
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.29.0",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
     "@solana-developers/helpers": "^2.8.1",
     "@solana/spl-token": "^0.4.13",
     "csv-parser": "^3.2.0",

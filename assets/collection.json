@@ -1,23 +1,18 @@
 {
-  "name": "Numbers",
-  "symbol": "NB",
-  "image": "collection.png",
+  "name": "SKOR AI Collection",
+  "symbol": "SKOR AI",
+  "description": "Powered by SKOR AI - A collection of Genesis Creator Agent NFTs",
+  "seller_fee_basis_points": 500,
+  "image": "https://skor-nft-test-20250719135527.s3.eu-west-1.amazonaws.com/assets/collection.png",
+  "external_url": "https://skoragents.ai/",
   "properties": {
     "files": [
       {
-        "uri": "collection.png",
+        "uri": "https://skor-nft-test-20250719135527.s3.eu-west-1.amazonaws.com/assets/collection.png",
         "type": "image/png"
       }
     ],
-    "category": "image",
-    "creators": [
-      {
-        "address": "4xbJp9sjeTEhheUDg8M1nJUomZcGmFZsjt9Gg3RQZAWp",
-        "share": 100
-      }
-    ]
+    "category": "image"
   },
-  "description": "A Set of test NFT's for the Solana Blockchain",
-  "seller_fee_basis_points": 500,
   "attributes": []
 }

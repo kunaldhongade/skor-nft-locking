@@ -1,24 +1,30 @@
 {
+    "tokenStandard": "nft",
     "number": 16,
-    "symbol": "NB",
+    "symbol": "SKOR AI",
     "sellerFeeBasisPoints": 500,
     "isMutable": true,
-    "isSequential": false,
-    "ruleSet": null,
+    "isSequential": true,
     "creators": [
         {
             "address": "bosK4CsP6tNQQJsjjFneTU6jzPpDirFFhjsQY2Mw6qo",
             "share": 100
         }
     ],
-    "uploadMethod": "bundlr",
-    "awsS3Bucket": null,
-    "retainAuthority": true,
-    "awsConfig": null,
+    "uploadMethod": "aws",
+    "ruleSet": null,
+    "awsConfig": {
+        "bucket": "skor-nft-test-20250719135527",
+        "profile": "default",
+        "directory": "/assets",
+        "domain": null
+    },
+    "sdriveApiKey": null,
     "nftStorageAuthToken": null,
     "shdwStorageAccount": null,
     "pinataConfig": null,
     "hiddenSettings": null,
+    "maxEditionSupply": null,
     "guards": {
         "default": {
             "solPayment": {
@@ -26,7 +32,7 @@
                 "destination": "bosK4CsP6tNQQJsjjFneTU6jzPpDirFFhjsQY2Mw6qo"
             },
             "startDate": {
-                "date": "2022-10-23T20:00:00Z"
+                "date": "2024-01-01T00:00:00Z"
             }
         }
     }

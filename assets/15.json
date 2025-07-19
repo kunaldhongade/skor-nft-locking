@@ -1,28 +1,32 @@
 {
-  "name": "Numbers #15",
-  "symbol": "NB",
-  "image": "15.png",
+  "name": "Genesis Creator Agent NFT #15",
+  "symbol": "SKOR AI",
+  "description": "Powered by SKOR AI",
+  "seller_fee_basis_points": 500,
+  "image": "https://skor-nft-test-20250719135527.s3.eu-west-1.amazonaws.com/assets/nft-15.png",
+  "animation_url": "https://skor-nft-test-20250719135527.s3.eu-west-1.amazonaws.com/assets/nft-15.mp4",
+  "external_url": "https://skoragents.ai/",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "1"
+    },
+    {
+      "trait_type": "Token ID",
+      "value": "15"
+    }
+  ],
   "properties": {
     "files": [
       {
-        "uri": "15.png",
+        "uri": "https://skor-nft-test-20250719135527.s3.eu-west-1.amazonaws.com/assets/nft-15.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "uri": "https://skor-nft-test-20250719135527.s3.eu-west-1.amazonaws.com/assets/nft-15.png",
         "type": "image/png"
       }
     ],
-    "category": "image",
-    "creators": [
-      {
-        "address": "4xbJp9sjeTEhheUDg8M1nJUomZcGmFZsjt9Gg3RQZAWp",
-        "share": 100
-      }
-    ]
-  },
-  "description": "A set of test NFTs for the Solana blockchain",
-  "seller_fee_basis_points": 500,
-  "attributes": [
-    {
-      "trait_type": "Number",
-      "value": "15"
-    }
-  ]
+    "category": "video"
+  }
 }
