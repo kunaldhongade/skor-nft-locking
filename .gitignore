@@ -3,7 +3,9 @@
 .DS_Store
 target/debug
 target/release
+target/rust-analyzer
 target/sbf-solana-solana
+target/sbpf-solana-solana
 **/*.rs.bk
 node_modules
 test-ledger
